@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.headerPhoto {
+  object-fit: scale-down;
+  height: 200;
+  width: 200;
+}
 
 .App-logo {
   height: 40vmin;
