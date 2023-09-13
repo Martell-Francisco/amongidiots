@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        
-      </h1>
+    <img src={"../public/images/AmongIdiotsFrame.png"} alt="Logo" />;
+      <h1>Among Us</h1>
     </div>
   );
 }
