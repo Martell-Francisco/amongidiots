@@ -18,8 +18,37 @@ function Home (){
                  nfkev kev 
                   vkejv kev ekv 
             </p>
-            <Cards/>
-            
+            <div className="cards_container">
+                <div className="test">
+                    <text  style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                <div className="test">
+                    <text style={{color:"white"}}>Hello Losers</text>
+                </div>
+                
+            </div>
+
         </div>
         
 
