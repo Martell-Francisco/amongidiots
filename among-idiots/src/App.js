@@ -1,15 +1,15 @@
 
 import './App.css';
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/Home.js"
 //import headerImg from '../public/images/AmongIdiotsFrame.png';
 
 
 function App() {
-  return (
-    <div className="App">
-    <img className='headerPhoto' src={"images/AmongIdiotsFrame.png"} alt="HeaderImg" />;
-      <h1>Among Us</h1>
-    </div>
-  );
+  return <Routes>
+      <Route path="/" element={<Home/>}/>
+    </Routes>
+  
 }
 
-export default App;
+export default App
