@@ -1,4 +1,5 @@
 import React from "react";
+import Cards from "../components/Cards";
 import '../Home.css';
 
 function Home (){
@@ -17,6 +18,8 @@ function Home (){
                  nfkev kev 
                   vkejv kev ekv 
             </p>
+            <Cards/>
+            
         </div>
         
 
