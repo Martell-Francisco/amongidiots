@@ -1,9 +1,9 @@
 import React from "react";
 import TheaterCard from "./TheaterCard";
 
-function TheaterGroup() {
+function TheaterSections() {
     return(
-        <div className="theater-group-cards">
+        <div className="theater-group-section">
             <TheaterCard
                 vidUrl="https://www.youtube.com/embed/LqoEfiOR4PU?si=wK5fgcEvtW0Lpf1k"
                 thumbnailUrl="./images/theaterThumb/tobi-revenge.jpeg"
@@ -12,9 +12,9 @@ function TheaterGroup() {
             />
 
         <TheaterCard
-                vidUrl="https://www.youtube.com/embed/JPn2Oo3qS9c?si=ZwjSOv19BTQDGo5Q"
-                thumbnailUrl="./images/gameknowstoomuch.jpeg"
-                cardTitle="Game knows too much"
+                vidUrl="https://www.youtube.com/embed/LqoEfiOR4PU?si=wK5fgcEvtW0Lpf1k"
+                thumbnailUrl="./images/theaterThumb/tobi-revenge.jpeg"
+                cardTitle="Tobi Revenge 2"
                 des="Will Tobi get his revenge? Join us as Tobi tries to gain his revenge on the group"
             />
 
@@ -39,4 +39,4 @@ function TheaterGroup() {
         </div>
     )
 }
-export default TheaterGroup
+export default TheaterSections

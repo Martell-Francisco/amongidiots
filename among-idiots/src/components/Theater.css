@@ -1,0 +1,56 @@
+.theater-group-cards{
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 60px;
+}
+.theater-button-img{
+    width: 250px;
+    height: 100x;
+    border: none;
+}
+.theaterText{
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position:sticky;
+    width: 100%;
+    height: 100%;
+
+}
+.theater-container{
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    max-width: 260px;
+    padding: 20px;
+
+}
+.theater-card-title{
+    color: azure;
+    font-size: 35px;
+}
+.theater-card-des{
+    color: azure;
+    font-size: 20px;
+}
+.modal-button{
+    border: none;
+}
+.modal-container{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    transform: translate(-100%,-100);
+    display: flex;
+}
+.closeBtn{
+    text-align: right;
+    color: aliceblue;
+}
