@@ -1,9 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import './Cards.css';
 
-function Cards({cardurl, cardtitle, cardtext}) {
+function Cards({cardurl, cardtitle, cardtext, navTo}) {
+    const navigate = useNavigate()
     return(<div className="cards_container">
-                <button className="home-buttons">
+                <button onClick={() => navigate(navTo)} className="home-buttons">
                     <img className="home-button-img" src={cardurl} alt="my ima"/>
                 </button>
 

@@ -13,5 +13,11 @@
     max-width: 100%;
 }
 
+@media (min-width: 320px) and (max-width: 800px) {
+    .backgroundImage{
+        background-image: url("starsflip.jpg");
+        background-size: cover;
 
-    
+    }
+
+}

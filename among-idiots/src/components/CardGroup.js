@@ -8,13 +8,24 @@ function CardGroup (){
         <div className="card-group-container">
             <Cards cardurl="./images/tobistheater.png"
                     cardtext="Watch Some Amazing trivia night games hosted by our one and only Tobi!"
-                    cardtitle="Tobi's Movie Theater!" />
+                    cardtitle="Tobi's Movie Theater!"
+                    navTo = "tobis-theater"
+                    />
             <Cards cardurl="./images/tobistheater.png"
                     cardtext="Watch Some Amazing trivia night games hosted by our one and only Tobi!"
-                    cardtitle="Are you a Imposter?!" />
-            <Cards cardurl="./images/tobistheater.png"
+                    cardtitle="Tobi's Movie Theater!"
+                    navTo = "tobis-theater"
+                    />
+                    <Cards cardurl="./images/tobistheater.png"
                     cardtext="Watch Some Amazing trivia night games hosted by our one and only Tobi!"
-                    cardtitle="Quotes!" />
+                    cardtitle="Tobi's Movie Theater!"
+                    navTo = "tobis-theater"
+                    />
+                    <Cards cardurl="./images/tobistheater.png"
+                    cardtext="Watch Some Amazing trivia night games hosted by our one and only Tobi!"
+                    cardtitle="Tobi's Movie Theater!"
+                    navTo = "tobis-theater"
+                    />
         </div>
     );
 }

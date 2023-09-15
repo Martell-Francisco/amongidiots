@@ -5,7 +5,7 @@ const TheaterModal = ({open, onClose, vidUrl}) => {
     if(!open) return null
    
     return (
-        <div className="overlay">
+        <div className="overlay" >
             <div className="modal-container">
                 <p onClick={onClose} className='closeBtn'>X</p>
                 <iframe width="711" height="400" 
