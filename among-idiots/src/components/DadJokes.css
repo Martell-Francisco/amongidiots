@@ -1,0 +1,33 @@
+.daddy{
+    text-align: center;
+    vertical-align: middle;
+    color:darkslategray;
+    font-size: 3vw;
+    width: 60%;
+
+}
+.dadStop{
+   
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+
+}
+.dadStopImg{
+    flex: basis 100%;
+    width: 80vw;
+    height: 40vw;
+    background-size: contain;
+    background-image: url("../../public/images/dadStop.png");
+    background-position: center center;
+    background-repeat:no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}

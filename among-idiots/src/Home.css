@@ -6,11 +6,16 @@
     margin: -1vh;
     background-position: center center;
     background-repeat:no-repeat;
+
 }
 .headerPhoto{
     display: block;
     text-align: center;
     max-width: 100%;
+}
+.test{
+    font-size: 40px;
+    color: black;
 }
 
 @media (min-width: 320px) and (max-width: 800px) {

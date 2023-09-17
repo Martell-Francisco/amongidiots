@@ -16,6 +16,6 @@ function TheaterCard({cardTitle, des, vidUrl, thumbnailUrl}) {
             <TheaterModal open={openModal} onClose={()=>setOpenModal(false)} vidUrl={vidUrl}/>
         </div>
     )
-}
+} 
 
 export default TheaterCard
