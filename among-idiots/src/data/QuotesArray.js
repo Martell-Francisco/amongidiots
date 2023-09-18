@@ -4,7 +4,7 @@ const QuotesArray = [
     "I do not dream of labour - Kira",
     "I will ignore this call out and go on with my day - Tina",
     "As in my life my best is always very mediocre - Fer",
-    "it was not lmao in the moment tho - Tina (as for getting Lost)",
+    "it was not bad in the moment tho lmao - Tina (as for getting Lost)",
     "Find the America - Kira",
     "Damnit Tina - Kira",
     "questinos - Tobi",

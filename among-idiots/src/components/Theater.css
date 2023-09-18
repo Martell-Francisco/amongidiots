@@ -21,7 +21,7 @@
 .modal-button{
     width: 100%;
     flex-basis: 70%;
-    border: none;
+    background-color:black;
 }
 .theaterText{
     flex-basis: 30%;
