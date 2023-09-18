@@ -10,7 +10,11 @@ function Tobistheater (){
         <div className="backgroundImage" >
             <img className='headerPhoto' src={"images/theaterRoom.png"} alt="HeaderImg" />
             <TheaterGroup/>
-            <button className="backButton" onClick={() => navigate(-1)}>go back</button>
+            <div className="buttonContainer">
+                <button className="backButton" >
+                    <img className="go-home-button-img" onClick={() => navigate(-1)} src={"images/ReturnHome.png"} alt="my ima"/>
+                </button>
+            </div>
         </div>
         
 

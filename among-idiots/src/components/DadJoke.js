@@ -36,16 +36,6 @@ function DadJoke (){
         
         
     )
-       //}
-   //render(){
-    
-   // return (
-    //    <div className="daddy">
-    //        {joke()}
-    //    </div>
-    //);
-  // }
-
 }
 
 export default DadJoke

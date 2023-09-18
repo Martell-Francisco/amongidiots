@@ -17,6 +17,30 @@
     font-size: 40px;
     color: black;
 }
+.go-home-button-img{
+    background-color: black;  
+    width: 12vw;
+    height: 8vw;
+    border: none;
+    margin: none;
+
+}
+.backButton{
+
+    margin: none;
+    background-color: transparent;
+    padding-right: 13vw;
+    padding-bottom: 2.5vw;
+    border: none;
+
+}
+.buttonContainer{
+    margin: none;
+    border: none;
+    width: 100vw;
+    text-align: right;
+    
+}
 
 @media (min-width: 320px) and (max-width: 800px) {
     .backgroundImage{
