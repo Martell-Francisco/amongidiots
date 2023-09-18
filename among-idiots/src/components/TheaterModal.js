@@ -13,9 +13,9 @@ const TheaterModal = ({open, onClose, vidUrl}) => {
                     height="100%" 
                     src={vidUrl} 
                     title="YouTube video player" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
+                    allowFullScreen>
                 </iframe>
             </div>
         </div>
