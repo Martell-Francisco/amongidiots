@@ -24,7 +24,7 @@ const UserDetails = () =>{
     }
 
     return(
-        <div>
+        <div style={{color:"white"}}>
             {
                 authUser ? <><p>{`Signed In ${authUser.email}`}</p>
                 <button onClick={userSignOut}>sign out</button></>
