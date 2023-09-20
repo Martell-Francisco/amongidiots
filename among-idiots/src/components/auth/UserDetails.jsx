@@ -1,6 +1,8 @@
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import React, {useEffect, useState} from "react";
 import { auth } from "../../firebaseConfig";
+import Planner from "../Planner";
+import SignIn from "./SignIn";
 
 const UserDetails = () =>{
     const [authUser, setAuthUser] = useState(null)
@@ -26,9 +28,9 @@ const UserDetails = () =>{
     return(
         <div style={{color:"white"}}>
             {
-                authUser ? <><p>{`Signed In ${authUser.email}`}</p>
+                authUser ? <><Planner user={authUser}/>
                 <button onClick={userSignOut}>sign out</button></>
-                 : <p>Signed Out</p>
+                 : <SignIn/>
             }
         </div>
     );

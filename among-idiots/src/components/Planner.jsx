@@ -1,18 +1,15 @@
 import React from "react";
-import { useState } from "react";
-import {signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebaseConfig";
+import RTPlanner from "./firestore/RTPlanner";
+import CreatePost from "./firestore/CreatePost";
 
-const Planner = () => {
+const Planner = (props) => {
 
 
     return(
         <div className="planner-container">
+                <CreatePost />
                 <div>
-                    Test
-                </div>
-                <div>
-
+                    <RTPlanner/>
                 </div>
         </div>
     )

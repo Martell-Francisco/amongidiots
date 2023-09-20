@@ -6,6 +6,7 @@
     margin: -1vh;
     background-position: center center;
     background-repeat:no-repeat;
+    min-height: 100vh;
 
 }
 .headerPhoto{
@@ -37,9 +38,14 @@
 .buttonContainer{
     margin: none;
     border: none;
-    width: 100vw;
+    width: 100%;
     text-align: right;
     
+}
+.calender{
+display: flexbox;
+flex-direction: column;
+padding: 8vw;
 }
 
 @media (min-width: 320px) and (max-width: 800px) {

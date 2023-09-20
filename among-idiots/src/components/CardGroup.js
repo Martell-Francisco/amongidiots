@@ -12,9 +12,9 @@ function CardGroup (){
                     navTo = "tobis-theater"
                     />
             <Cards cardurl="./images/tobistheater.png"
-                    cardtext="Watch Some Amazing trivia night games hosted by our one and only Tobi!"
-                    cardtitle="Tobi's Movie Theater!"
-                    navTo = "Calender"
+                    cardtext="Underdevelopment - Must Change icon- testing groups planning chat"
+                    cardtitle="Future Planning feature!"
+                    navTo = "Planner"
                     />
 
         </div>

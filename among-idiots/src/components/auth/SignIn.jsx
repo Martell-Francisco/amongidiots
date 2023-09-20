@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import {signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebaseConfig";
+import "../Planner.css"
 
 const SignIn = () => {
     const [email, setEmail] = useState("");
@@ -28,7 +29,8 @@ const SignIn = () => {
                     onChange={(e) => setEmail(e.target.value)}
                 ></input>
                 <input 
-                    type="passwword" 
+                    type="password" 
+                    name="password"
                     placeholder="Enter Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}

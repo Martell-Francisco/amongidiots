@@ -1,4 +1,36 @@
 .planner{
-    width: 100vw;
-    min-height: 90vh;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+
 }
+.displayContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: mediumaquamarine;
+    width: 25vw;
+    padding: 15px;
+    margin: 10px;
+}
+.displayComments{
+    color: azure;
+    flex-basis: 70%;
+}
+.displayLikes{
+    color: azure;
+    flex-basis: 20%;
+}
+.displayDeleteButton{
+    flex-basis: 10%;
+}
+.signIn{
+    text-align: center;
+    padding-bottom: 20vw;
+    font-size: x-large;
+}
+
