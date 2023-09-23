@@ -13,6 +13,7 @@ export default function CreatePost (){
             likes: [],
             creator: auth.currentUser.displayName
           });
+          setComment("")
     };
 
       return(
