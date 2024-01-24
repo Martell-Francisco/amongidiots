@@ -1,3 +1,4 @@
+@font-face { font-family: Chalk; src: url('../components/fonts/chalk.ttf'); } 
 .planner{
 
 
@@ -33,4 +34,40 @@
     padding-bottom: 20vw;
     font-size: x-large;
 }
-
+input{
+    flex: auto;
+    flex-direction: column;
+    margin: 5px;
+}
+.chalkBoard{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(29 70 36);
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(150, 127, 99);
+    
+}
+.displayMessage{
+    font-family: Chalk;
+    padding: 5px;
+    font-size: x-large;
+}
+.displayTitle{
+    font-size: xx-large;
+    font-family: Chalk;
+    padding: 5px;
+}
+.displayEventTime{
+    font-size:larger;
+    font-family: Chalk;
+    padding: 5px;
+}
+.eraseEvent{
+    font-size: larger;
+    font-family: Chalk;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}

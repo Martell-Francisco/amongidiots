@@ -6,7 +6,6 @@ import Tobistheater from "./pages/Tobistheater"
 import CheckImposter from "./pages/CheckImposter"
 import Calender from './pages/Calender';
 import SignUp from './components/auth/SignUp';
-//import headerImg from '../public/images/AmongIdiotsFrame.png';
 
 
 function App() {

@@ -18,4 +18,3 @@ export default function DisplayPost (props){
         </div>
     )
 }
-//<CreatePost comment="Hello People: Lets Do This"/>
