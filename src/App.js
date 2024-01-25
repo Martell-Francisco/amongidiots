@@ -13,7 +13,7 @@ function App() {
       <Route path='tobis-theater' element={<Tobistheater />}/>
       <Route path='AssignImposter' element={<CheckImposter />}/>
       <Route path='Planner' element={<Calender/>}/>
-      <Route path='SecretSignUpPage' element={<SecretSignUpPage/>}/>
+      <Route path='SecretSignUpPage' element={<SecretSignUpPage />}/>
 
     </Routes>)
   
