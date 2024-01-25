@@ -19,7 +19,7 @@ function Calender (){
                 </button>
             </div>
             </div>
-            <button className="secretB" onClick={() => navigate("/SecretSignUpPage")}></button>
+            <button className="secretB" onClick={() => navigate("/SecretSignUpPage")}>Are You Curious?</button>
 
         </div>
         
