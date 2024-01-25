@@ -16,8 +16,6 @@ function Tobistheater (){
                 </button>
             </div>
         </div>
-        
-
     )
 }
 export default Tobistheater

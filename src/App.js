@@ -5,8 +5,7 @@ import Home from "./pages/Home.js"
 import Tobistheater from "./pages/Tobistheater"
 import CheckImposter from "./pages/CheckImposter"
 import Calender from './pages/Calender';
-import SignUp from './components/auth/SignUp';
-
+import SecretSignUpPage from './pages/SecretPage';
 
 function App() {
   return <Routes>
@@ -14,7 +13,7 @@ function App() {
       <Route path='tobis-theater' element={<Tobistheater />}/>
       <Route path='AssignImposter' element={<CheckImposter />}/>
       <Route path='Planner' element={<Calender/>}/>
-      <Route path='init' element={<SignUp/>}/>
+      <Route path='SecretSignUpPage' element={<SecretSignUpPage/>}/>
 
     </Routes>
   
