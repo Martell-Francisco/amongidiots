@@ -3,13 +3,27 @@ import { onSnapshot } from "firebase/firestore";
 import { planCollRefEvent } from "./PlannerColRef";
 import DisplayEvent from "./DisplayEvent";
 import "../Planner.css"
+import Modal from 'react-modal';
+import CreateEvent from "./CreateEvent";
 
 
-
+Modal.setAppElement('#root');
 
 export default function FirestoreEvents (){
     const [posts, setPost] = useState([])
+    const [modalIsOpen, setIsOpen] = React.useState(false);
     
+    function openModal() {
+        setIsOpen(true);
+      }
+    
+    //  function afterOpenModal() {
+        // references are now sync'd and can be accessed.
+    //  }
+    
+      function closeModal() {
+        setIsOpen(false);
+      }
 
     useEffect(() => {
         const unsubscribe = onSnapshot(planCollRefEvent, snapshot => {
@@ -20,6 +34,13 @@ export default function FirestoreEvents (){
         })
         return () => {unsubscribe()}
     },[])
+    if(Object.keys(posts).length===0)return(
+        <div >
+            <ul className="chalkBoard">
+                No Events Planned
+            </ul>
+        </div>
+    )
     return(
         <div >
             <ul className="chalkBoard">
@@ -36,6 +57,26 @@ export default function FirestoreEvents (){
                     </div>
                     
                 ))}
+                <div>
+      <button className="eraseEvent" onClick={openModal}>~~Add Event~~</button>
+      <Modal
+        isOpen={modalIsOpen}
+        //onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        //style={customStyles}
+        contentLabel="Portal"
+        className="modal"
+      >
+        
+        <div className="eraseEvent">Event Creator</div>
+        <div>
+            
+        <CreateEvent/>
+            <button className="eraseEvent" onClick={closeModal}>&#091;close&#093;</button>
+        </div>
+        
+      </Modal>
+    </div>
             </ul>
         </div>
     )

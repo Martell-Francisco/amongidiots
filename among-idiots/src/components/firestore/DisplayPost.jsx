@@ -13,7 +13,6 @@ export default function DisplayPost (props){
             <div className="displayLikes">
             {props.likes} 
             </div>
-            
             <DeletePost id={props.id}/>           
         </div>
     )

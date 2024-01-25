@@ -3,6 +3,7 @@ import CardGroup from "../components/CardGroup";
 import DadJoke from "../components/DadJoke";
 import Quotes from "../components/Quotes";
 import '../Home.css';
+//import FirestoreEvents from "../components/firestore/FirestoreEvents";
 
 
 function Home (){
@@ -15,7 +16,6 @@ function Home (){
             <DadJoke/>
             <Quotes/>
             <CardGroup/>
-
             </div>
 
         </div>

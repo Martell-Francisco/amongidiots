@@ -8,9 +8,10 @@ const Planner = (props) => {
 
     return(
         <div className="planner-container">
-                <CreatePost />
+                
                 <div>
                     <FirestoreEvents/> 
+                    <CreatePost/>
                     <RTPlanner/>
                 </div>
         </div>

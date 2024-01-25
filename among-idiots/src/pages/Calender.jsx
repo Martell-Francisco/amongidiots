@@ -15,7 +15,7 @@ function Calender (){
             <UserDetails />
             <div className="buttonContainer">
                 <button className="backButton" >
-                    <img className="go-home-button-img" onClick={() => navigate(-1)} src={"images/ReturnHome.png"} alt="my ima"/>
+                    <img className="go-home-button-img" onClick={() => navigate("/")} src={"images/ReturnHome.png"} alt="my ima"/>
                 </button>
             </div>
             </div>

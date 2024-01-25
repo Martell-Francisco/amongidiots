@@ -11,7 +11,7 @@ export default function DisplayEvent (props){
             {props.message} 
             </div>
             <div className="displayEventTime">
-                 {props.date} at {props.time}
+                 Event Date:  {props.date} at {props.time}
             </div>
             
             
